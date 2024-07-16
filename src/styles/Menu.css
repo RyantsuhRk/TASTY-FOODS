@@ -1,0 +1,69 @@
+.Menu-resto{
+    margin-top:30px;
+    padding-bottom: 30px;
+    margin-left:-20px;
+}
+.Menu-resto h1{
+    text-align: center;
+}
+
+.Menu-list{
+    width:100%;
+    margin-top:40px;
+}
+.Menu-list ul{
+    display:flex;
+    gap:2.5rem;
+    flex-wrap: wrap;
+    gap:40px;
+    justify-content: center;
+}
+.button-ajoute{
+    display:flex;
+    justify-content:flex-end;
+    margin-top:20px;
+}
+
+
+
+/***Responsive****/
+@media (max-width:1280px) and (min-width:1024px) {
+    
+    .btn-ajouter{
+        padding:0px 10px 0px 10px;
+        height:34px;
+    }
+}
+@media (max-width:1023px) and (min-width:992px) {
+    
+    .btn-ajouter{
+        color:white;
+        background:green;
+        padding:0px 5px 0px 5px;
+    }
+    .btn-info-plus,.btn-ajouter{
+        font-size:14px;
+    }
+}
+@media (max-width:991px) and (min-width:768px) {
+    .btn-info-plus,.btn-ajouter{
+        font-size:14px;
+    }
+    .btn-ajouter{
+        padding:-1px 3px 1px 3px;
+    } 
+}
+@media (max-width:767px) and (min-width:576px) {
+
+}
+@media (max-width:575px) and (min-width:350px) {
+
+}
+@media (max-width:349px){
+    .btn-info-plus,.btn-ajouter{
+        font-size:12px;
+    }
+    .btn-ajouter{
+        padding:0px 3px;
+    }
+}
